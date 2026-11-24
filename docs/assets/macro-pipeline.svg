@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 470" role="img" aria-labelledby="t d">
+<title id="t">Macro Bot — FRED market data into a Discord macro brief</title>
+<desc id="d">Original architecture illustration showing US rates and risk indicators, China macroeconomic proxies, brief compilation, simple rule-based flags and delivery by Discord. Not live data or a screenshot.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y1="1"><stop stop-color="#071522"/><stop offset=".55" stop-color="#10233a"/><stop offset="1" stop-color="#1b2d47"/></linearGradient>
+<linearGradient id="head" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1d4f68"/><stop offset="1" stop-color="#284475"/></linearGradient>
+</defs>
+<rect width="1280" height="470" rx="22" fill="url(#bg)"/>
+<circle cx="1090" cy="70" r="250" fill="#48c5c6" opacity=".065"/>
+<g font-family="Arial,sans-serif">
+<text x="58" y="61" font-size="18" font-weight="700" fill="#86e9df" letter-spacing="3">MACRO BOT / PYTHON AUTOMATION</text>
+<text x="57" y="120" font-family="Georgia,serif" font-size="50" fill="#f4fbff">From data to daily context.</text>
+<text x="58" y="154" font-size="17" fill="#bed0df">A lightweight US–China macro brief pipeline · Technical schematic, not a live dashboard</text>
+</g>
+<g stroke="#406177" stroke-width="1.5">
+<rect x="58" y="202" width="272" height="192" rx="17" fill="#102b3e"/>
+<rect x="373" y="202" width="272" height="192" rx="17" fill="#102b3e"/>
+<rect x="690" y="202" width="248" height="192" rx="17" fill="#102d47"/>
+<rect x="978" y="202" width="244" height="192" rx="17" fill="#172c51"/>
+</g>
+<g font-family="Arial,sans-serif">
+<text x="82" y="238" font-size="16" font-weight="700" fill="#8be6db">US MARKET DATA</text>
+<text x="82" y="270" font-size="15" fill="#e3eff8">Treasury 2Y / 10Y yields</text>
+<text x="82" y="300" font-size="15" fill="#cbdce9">Real yields · HY spreads</text>
+<text x="82" y="330" font-size="15" fill="#cbdce9">VIX · term spread</text>
+<text x="82" y="368" font-size="12" fill="#83afc9">FRED series observations</text>
+<text x="397" y="238" font-size="16" font-weight="700" fill="#8be6db">CHINA PROXIES</text>
+<text x="397" y="270" font-size="15" fill="#e3eff8">CPI inflation</text>
+<text x="397" y="300" font-size="15" fill="#cbdce9">Industrial production</text>
+<text x="397" y="330" font-size="15" fill="#cbdce9">USD/CNY · credit/GDP</text>
+<text x="397" y="368" font-size="12" fill="#83afc9">FRED country series (may be NA)</text>
+<text x="712" y="238" font-size="16" font-weight="700" fill="#a6c8ff">BRIEF ENGINE</text>
+<text x="712" y="271" font-size="15" fill="#e3eff8">Normalize observations</text>
+<text x="712" y="301" font-size="15" fill="#cbdce9">Compose Markdown</text>
+<text x="712" y="331" font-size="15" fill="#cbdce9">Rule-based risk flags</text>
+<text x="712" y="368" font-size="12" fill="#91b4d6">No LLM-generated forecast</text>
+<text x="1002" y="238" font-size="16" font-weight="700" fill="#b9abff">DISCORD</text>
+<text x="1002" y="271" font-size="15" fill="#e3eff8">Bot API · messages</text>
+<text x="1002" y="301" font-size="15" fill="#cbdce9">Chunked delivery</text>
+<text x="1002" y="331" font-size="15" fill="#cbdce9">Windows Task Scheduler</text>
+<text x="1002" y="368" font-size="12" fill="#9fb0d9">Configured credentials required</text>
+</g>
+<g stroke="#91d9e0" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M330 297H368"/><path d="M361 290L368 297L361 304"/>
+<path d="M645 297H685"/><path d="M678 290L685 297L678 304"/>
+<path d="M939 297H974"/><path d="M966 290L974 297L966 304"/>
+</g>
+<text x="58" y="441" font-family="Arial,sans-serif" font-size="12" fill="#9eb4c7">Data freshness depends on each source series. Indicators and thresholds are descriptive heuristics, not investment advice.</text>
+</svg>
